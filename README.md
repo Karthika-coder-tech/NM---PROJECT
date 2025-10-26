@@ -1,22 +1,22 @@
 Email Reminder System
-A simple web app that sends scheduled email reminders automatically using Node.js and Nodemailer.
----
-Features
-Set reminder date, time, and message
-Automatic email sending using Nodemailer
-Simple web interface
-Uses Node-cron for scheduling
----
-Setup
-1.clone the repo
+An automated Email Reminder System that helps users schedule and send reminder emails at specified times.
+Built with simplicity, reliability, and automation in mind.
+-----------------------------------
+features
+*Schedule reminder emails for future dates and times
+*Automatically send reminders via email
+*Store and manage reminder details in a database
+*Custom subject and message support
+*Multiple user support (optional)
+*Email delivery status logging
+
+Tech Stack
+*Backend: Python (Flask / Django / FastAPI)
+*Database: SQLite / MySQL / PostgreSQL
+*Email Service: SMTP (Gmail, Outlook, etc.)
+*Scheduler: APScheduler / Celery / Cron
+
+Installation
+Clone the repository
 git clone https://github.com/your-username/email-reminder-system.git
-2.Go to folder
 cd email-reminder-system
-3.Install dependencies
-npm install
-4.Create .env file
-EMAIL_USER=your_email@gmail.com  
-EMAIL_PASS=your_password  
-PORT=3000
-5.Run the app
-node app.js
